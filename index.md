@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-author_profile: /
+author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -24,10 +24,6 @@ excerpt: "**独立研究者 | 意识物理 | 惯性-张力理论 (ITT)**<br>将�
 - [PFM 参数场模型 (1.0-3.0)](https://doi.org/10.5281/zenodo.19440553) — 物理常数由原动力场局域构型决定
 - [意识谱：从本能到自由](https://doi.org/10.5281/zenodo.19705415) — 跨物种意识分层模型
 - [意识涌现的双层假说](https://doi.org/10.5281/zenodo.19715029) — 宇宙场 + 微生物共生 → 意识
-
-## 代码与实验
-
-[ITT 实验工具包 (GitHub)](https://github.com/TulingZhongwen/ITT-experiment) — 状态空间重构、Λ/Θ 计算、方向规则演示。
 
 ## 联系
 
