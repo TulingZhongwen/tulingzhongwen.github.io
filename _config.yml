@@ -1,7 +1,5 @@
 # Welcome to Jekyll!
 # This config file is meant for settings that affect your whole site.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve -l -H localhost'. If you change this file, please restart the server process.
 
 # Site Settings
 title: "图灵中文 | 惯性-张力理论 (ITT)"
@@ -9,54 +7,32 @@ title_separator: "-"
 name: "图灵中文"
 description: "独立研究者 | 意识物理 | 惯性-张力理论 | PCC宇宙学模型 | 意识测量"
 url: "https://tulingzhongwen.github.io"
-baseurl: "" 
+baseurl: ""
 repository: "TulingZhongwen/tulingzhongwen.github.io"
 
 # Site Author
 author:
   name: "图灵中文"
-  avatar: "profile.png"  
-  bio: "独立研究者。提出惯性-张力理论(ITT)、PCC宇宙学模型、CFM意识场论、PFM时空场论。将意识从哲学推向可实验检验的物理理论。"
+  avatar: "profile.png"   # 可选，可在根目录放头像
+  bio: "独立研究者。提出惯性-张力理论(ITT)、PCC宇宙学模型、CFM意识场论。将意识从哲学推向可实验检验的物理理论。"
   location: "中国深圳"
   email: "tulingzhongwen@zohomail.com"
   uri: "https://tulingzhongwen.github.io"
 
-# Social Media / Academic Links
+# Social/Academic Links
 github: "TulingZhongwen"
 orcid: "0009-0004-7942-112X"
 email: "tulingzhongwen@zohomail.com"
 
+# 以下不用可留空
 academia: ""
 arxiv: ""
 googlescholar: ""
-impactstory: ""
 bitbucket: ""
-codepen: ""
-dribbble: ""
-facebook: ""
-flickr: ""
-foursquare: ""
-instagram: ""
-kaggle: ""
-keybase: ""
-lastfm: ""
-linkedin: ""
-mastodon: ""
-medium: ""
-pinterest: ""
-reddit: ""
-soundcloud: ""
-stackoverflow: ""
-steam: ""
-tumblr: ""
 twitter: ""
-vimeo: ""
-vine: ""
-weibo: ""
-xing: ""
-youtube: ""
+linkedin: ""
 
-# Site Footer
+# Footer links
 footer:
   links:
     - label: "GitHub"
@@ -70,7 +46,7 @@ footer:
       url: "mailto:tulingzhongwen@zohomail.com"
 
 # Build settings
-theme: jekyll-theme-academic
+remote_theme: academicpages/academicpages.github.io   # 关键修改：使用 remote_theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
