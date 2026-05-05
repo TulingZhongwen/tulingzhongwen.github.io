@@ -1,36 +1,51 @@
 ---
-layout: archive
-title: "Publications"
+title: "Research & Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## 惯性-张力理论（ITT）v5
+**Inertia-Tension Theory (ITT) version 5: A first‑principle theory of consciousness (final consciousness edition)**  
+*Tuling Zhongwen (图灵中文), 2026*  
+[DOI: 10.5281/zenodo.19533323](https://doi.org/10.5281/zenodo.19533323) | [GitHub: ITT-experiment](https://github.com/TulingZhongwen/ITT-experiment)  
 
-{% include base_path %}
+从惯性、张力、自反性三条公设出发，定义了闭环因果强度 Λ 与可访问自指距离 Θ(s)，给出三个可实验检验的预言（意识涌现条件、意识度、方向规则）。
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## PCC 宇宙学模型 (1.0–4.0)
+**Primordium Cyclic Cosmos (PCC) model**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19341662](https://doi.org/10.5281/zenodo.19341662)  
 
+统一暴胀、暗能量、暗物质、基本力与周期循环的原动力场理论。
 
+## CFM 意识场论 (1.0–3.0)
+**Consciousness Field Model (CFM)**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19440497](https://doi.org/10.5281/zenodo.19440497)  
 
+意识作为惯性体验的场论描述：氛围圈、意识波、共享场、多时间尺度动力学。
+
+## PFM 时空参数场模型 (1.0–3.0)
+**Parameter Field Model (PFM)**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19440553](https://doi.org/10.5281/zenodo.19440553)  
+
+原动力场局域构型决定物理常数，定义参数场复杂度与文明技术等级。
+
+## 意识谱：从本能到自由（ITT 跨物种展望）
+**Spectrum of Consciousness: From Instinct to Freedom**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19705415](https://doi.org/10.5281/zenodo.19705415)  
+
+基于 Λ 和 Θ(s) 的跨物种意识分层模型（第零阶至第三阶）。
+
+## 意识涌现的双层假说
+**A Two‑Layer Hypothesis of Consciousness Emergence**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19715029](https://doi.org/10.5281/zenodo.19715029)  
+
+宇宙惯性场（潮水）+ 微生物共生演化（渔网）→ 意识涌现。
+
+## ITT 相关工作和文献引注
+**Related work and literature annotation for ITT**  
+Zenodo, 2026. [DOI: 10.5281/zenodo.19705642](https://doi.org/10.5281/zenodo.19705642)  
+
+ITT 与 IIT、GNWT、自由能原理的对话，非线性动力学方法与宇宙学背景。
+
+## 代码库
+- [ITT-experiment](https://github.com/TulingZhongwen/ITT-experiment) – 状态空间重构、Λ/Θ 计算、方向规则演示（Python）
