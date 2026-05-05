@@ -9,13 +9,13 @@ title_separator: "-"
 name: "图灵中文"
 description: "独立研究者 | 意识物理 | 惯性-张力理论 | PCC宇宙学模型 | 意识测量"
 url: "https://tulingzhongwen.github.io"
-baseurl: ""  # 
+baseurl: "" 
 repository: "TulingZhongwen/tulingzhongwen.github.io"
 
 # Site Author
 author:
   name: "图灵中文"
-  avatar: "profile.png"   # 
+  avatar: "profile.png"  
   bio: "独立研究者。提出惯性-张力理论(ITT)、PCC宇宙学模型、CFM意识场论、PFM时空场论。将意识从哲学推向可实验检验的物理理论。"
   location: "中国深圳"
   email: "tulingzhongwen@zohomail.com"
