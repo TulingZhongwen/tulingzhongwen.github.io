@@ -1,7 +1,7 @@
 ---
-layout: splash
+layout: /
 permalink: /
-author_profile: false
+author_profile: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
